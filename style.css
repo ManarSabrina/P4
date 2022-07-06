@@ -81,6 +81,16 @@ a:hover {
     background: top no-repeat;
 }
 
+.gros_texte {
+    font-size: 17px;
+    font-weight: 500; 
+}
+
+.nom-citateur {
+    font-size: 17px;
+    font-weight: 100; 
+}
+
 .bloc-bg-texture::before {
     content: "";
     background-size: 2px 2px;
@@ -321,6 +331,8 @@ a:hover {
     margin-right: -16px;
     float: right;
     z-index: 1;
+    text-decoration: none;
+    padding-left: 0px;
 }
 
 .nav > li {
@@ -742,6 +754,8 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    margin: auto;
+    max-width: 320px;
 }
 
 .portfolio-row {
@@ -1040,4 +1054,11 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.navbar .nav {
+    margin-right: 0 px;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
 }
