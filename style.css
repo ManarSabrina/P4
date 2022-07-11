@@ -343,6 +343,7 @@ a:hover {
 
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
+    text-decoration: none;
 }
 
 .nav > li a:hover,
@@ -373,6 +374,13 @@ a:hover {
     float: right;
     position: relative;
     z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+}
+
+li::marker {
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
